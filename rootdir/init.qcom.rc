@@ -256,7 +256,7 @@ service qmuxd /system/bin/qmuxd
 service hciattach /vendor/bin/init.qcom.bt.sh
     class late_start
     user bluetooth
-    group qcom_oncrpc bluetooth system
+    group bluetooth system
     disabled
     oneshot
 
