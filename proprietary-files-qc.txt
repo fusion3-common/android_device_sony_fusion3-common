@@ -135,7 +135,7 @@ etc/firmware/vidc_1080p.fw
 etc/firmware/vidcfw.elf
 
 # Widevine DRM
-vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/mediadrm/libwvdrmengine.so|66ba66d047044f92eb0eada1faf6a5799ded90ab
 
 # WiFi Firmware
 etc/firmware/wcnss.b00
