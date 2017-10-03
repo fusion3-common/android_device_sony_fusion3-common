@@ -330,7 +330,7 @@ service ta_qmi_client /vendor/bin/ta_qmi_client
     class main
     user root
 
-service updatemiscta /system/bin/updatemiscta
+service updatemiscta /vendor/bin/updatemiscta
     class main
     user root
     oneshot
