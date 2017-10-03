@@ -326,7 +326,7 @@ service tad_static /vendor/bin/tad_static /dev/block/platform/msm_sdcc.1/by-name
     group root readproc
     socket tad stream 0660 system system
 
-service ta_qmi_client /system/bin/ta_qmi_client
+service ta_qmi_client /vendor/bin/ta_qmi_client
     class main
     user root
 

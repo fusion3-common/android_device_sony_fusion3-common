@@ -71,7 +71,7 @@ lib/libsys-utils.so
 
 # TA
 bin/ta2bin
-bin/ta_qmi_client
+vendor/bin/ta_qmi_client
 lib/libmiscta.so
 -lib/libta.so
 etc/firmware/ta.mbn
