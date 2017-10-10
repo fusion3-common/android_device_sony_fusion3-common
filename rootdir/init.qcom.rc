@@ -253,7 +253,7 @@ service qmuxd /system/bin/qmuxd
     disabled
 
 # QCOM prop
-service hciattach /system/bin/sh /system/etc/init.qcom.bt.sh
+service hciattach /vendor/bin/init.qcom.bt.sh
     class late_start
     user bluetooth
     group qcom_oncrpc bluetooth system
@@ -271,7 +271,7 @@ service netmgrd /system/bin/netmgrd
     group radio system wakelock
     disabled
 
-service fm_dl /system/bin/sh /system/etc/init.qcom.fm.sh
+service fm_dl /vendor/bin/init.qcom.fm.sh
     class late_start
     user system
     group system
