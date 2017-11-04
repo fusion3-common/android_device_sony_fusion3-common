@@ -36,12 +36,12 @@
             android:name=".TouchscreenGesturePreferenceActivity"
             android:label="@string/ambient_display_gestures_title"
             android:theme="@style/DeviceSettings">
-            <intent-filter>
+            <intent-filter android:priority="-4">
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.display" />
+                android:value="com.android.settings.category.ia.language" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/ambient_display_gestures_summary" />
