@@ -25,7 +25,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # DRM HIDL interfaces
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl
-
-# OMX properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.media.treble_omx=false
