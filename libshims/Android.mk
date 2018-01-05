@@ -36,7 +36,8 @@ LOCAL_SRC_FILES := \
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/include \
     external/safe-iop/include \
-    system/core/libutils
+    system/core/libutils \
+    frameworks/native/libs/nativewindow/include
 
 LOCAL_SHARED_LIBRARIES := \
     libbase \
