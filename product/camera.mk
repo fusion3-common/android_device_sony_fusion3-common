@@ -11,4 +11,5 @@ PRODUCT_PACKAGES += \
 # Camera properties
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.legacyencoder=true \
-    media.stagefright.less-secure=true
+    media.stagefright.less-secure=true \
+    debug.camcorder.disablemeta=true
