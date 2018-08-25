@@ -271,11 +271,11 @@ service hci_attach /system/bin/sh /system/etc/init.qcom.bt.sh
     oneshot
     seclabel u:r:hci_attach:s0
 
-on property:bluetooth.hciattach=true
+on property:vendor.bluetooth.hciattach=true
     start hci_attach
 
-on property:bluetooth.hciattach=false
-    setprop bluetooth.status off
+on property:vendor.bluetooth.hciattach=false
+    setprop vendor.bluetooth.status off
 
 service netmgrd /system/bin/netmgrd
     class late_start
