@@ -41,6 +41,8 @@ static inline const char* getBTDefaultName()
     return "Xperia";
 }
 
+#undef PROPERTY_VALUE_MAX
+
 #define BTM_DEF_LOCAL_NAME getBTDefaultName()
 #endif // OS_GENERIC
 
